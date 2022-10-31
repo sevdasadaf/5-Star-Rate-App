@@ -1,0 +1,47 @@
+.top-image {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.top-image img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.review {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.review span {
+  display: flex;
+  color: hsl(25deg, 97%, 53%);
+  font-size: 1rem;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216deg, 12%, 8%);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  text-align: center;
+  align-self: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.footer span {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 2rem;
+  font-family: "Overpass", sans-serif;
+}
+.footer p {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 1rem;
+  font-family: "Overpass", sans-serif;
+  text-align: center;
+}/*# sourceMappingURL=submit.css.map */

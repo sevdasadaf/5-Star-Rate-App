@@ -1,0 +1,64 @@
+$primaryColor: hsl(25, 97%, 53%);
+$White: hsl(0, 0%, 100%);
+$Light: hsl(217, 12%, 63%);
+$MediumGrey: hsl(216, 12%, 54%);
+$DarkBlue: hsl(213, 19%, 18%);
+$VeryDarkBlue: hsl(216, 12%, 8%);
+
+$fontSize: 1rem;
+$fontFamily:'Overpass', sans-serif;
+
+
+
+.top-image {
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+    img{
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+.review {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    span {
+     
+        display: flex;
+       
+        color: $primaryColor;
+        font-size: $fontSize;
+        font-family: $fontFamily;
+        background-color: $VeryDarkBlue;
+        padding: .5rem 1rem;
+        border-radius: 2rem;
+        text-align: center;
+        align-self: center;
+      
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    span {
+        color: $White;
+        font-size: 2rem;
+        font-family: $fontFamily;
+    }
+    p{
+        color: $Light;
+        font-size: $fontSize;
+        font-family: $fontFamily;
+        text-align: center;
+    }
+
+}
