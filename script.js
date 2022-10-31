@@ -1,7 +1,6 @@
 const btn = document.querySelectorAll('.button')
 const sumbit_btn = document.getElementById('submit');
-const rateApp = document.getElementById('rateApp')
-const count = document.getElementById('star');
+const star_count = document.getElementById('star');
 
 btn.forEach(button => {button.addEventListener('click', clicked)})
 
@@ -22,7 +21,7 @@ if(e.target.tagName === 'BUTTON') {
    while (next_button = next_button.nextElementSibling) {
       next_button.classList.remove('active')
    }
-   //  let num = e.target.value
+   
    sessionStorage.setItem("autosave", Number(e.target.value))
 }
 
@@ -31,12 +30,10 @@ function submitted () {
 window.location.href = "./pages/submitted.html"
 
 }
-
-
 }
 
-const k = sessionStorage.getItem("autosave")
-count.innerHTML = `You've selected ${k}  out of 5`
+const star_number = sessionStorage.getItem("autosave")
+star_count.innerHTML = `You've selected ${star_number}  out of 5`
 
 
   
